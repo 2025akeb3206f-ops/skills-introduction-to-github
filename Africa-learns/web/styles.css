@@ -5,6 +5,7 @@
   --muted: #4a5568;
   --primary: #2b6cb0;
   --border: #e2e8f0;
+  --white: #ffffff;
 }
 
 * { box-sizing: border-box; }
@@ -47,14 +48,14 @@ header {
   text-decoration: none;
   color: var(--muted);
   border: 1px solid var(--border);
-  background: #fff;
+  background: var(--white);
   border-radius: 999px;
   padding: 0.45rem 0.75rem;
 }
 
 .nav-links a.active {
   background: var(--primary);
-  color: #fff;
+  color: var(--white);
   border-color: var(--primary);
 }
 
